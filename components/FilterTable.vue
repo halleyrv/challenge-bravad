@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <button @click="moreData"> mas </button>
     <Search :query="q" />
     <div v-if="isLoading">Loading data....</div>
     <div id="list">
